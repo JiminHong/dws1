@@ -1,0 +1,31 @@
+body {
+	font-family: arial;
+}
+
+h1, h2 {
+	color: #ee3e80;
+}
+
+p#intro{
+	color:green;
+}
+
+#intro em{
+	color:red;
+}
+
+#intro strong{
+	color:blue;
+}
+
+#pullquote {
+	text-transform: uppercase;	
+}
+
+p.important {
+	text-transform: uppercase;
+}
+
+p.admittance {
+	color: #ee3e80;
+}

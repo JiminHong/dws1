@@ -1,0 +1,17 @@
+body {
+	background-color: rgb(200,200,200);
+	color: white;
+}
+
+h1 {
+	background-color: rgba(0,139,139,0.5);
+}
+
+h2 {
+	background-color: #ee4e80;
+}
+
+p {
+	background-color: white;
+	color: rgb(100,100,90);
+}

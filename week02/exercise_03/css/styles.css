@@ -1,0 +1,37 @@
+h1 {
+	color: brown;
+}
+
+ul {
+	list-style: inside circle;
+}
+
+a:link {
+	color: deeppink;
+	text-decoration: none;
+}
+
+a:visited {
+	color: brown;
+}
+
+a:hover {
+	color:grey;
+	text-decoration: underline;
+}
+
+a:active {
+	color: darkcyan;
+}
+
+ol {
+	list-style-type: lower-roman;
+}
+
+ul#illuminations {
+	list-style-position: outside;
+}
+
+ul#season {
+	list-style-position: inside;
+}
