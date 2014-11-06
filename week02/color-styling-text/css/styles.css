@@ -17,3 +17,7 @@ p#one {
 p#zero {
 	background-color: rgb(242,129,29);
 }
+
+p {
+	margin:0;
+	}

@@ -1,0 +1,9 @@
+p {
+	width: 300px;
+	border: 20px solid #0088dd;
+	padding:50px;
+}
+
+p#example{
+	margin: 10px auto;
+}
