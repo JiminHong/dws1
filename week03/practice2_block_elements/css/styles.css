@@ -1,0 +1,22 @@
+body {
+	width: 750px;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+}
+
+p {
+	border: 0px solid deeppink;
+}
+
+blockquote {
+	font-size: 130%;
+	font-style: italic;
+	font-family: Georgia, Times, serif;
+	padding: 10px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+	
+	float: right;
+	width: 275px;
+	margin: 0 0 10px 10px;
+}

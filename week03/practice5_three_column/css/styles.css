@@ -1,0 +1,21 @@
+body {
+	width: 980px;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+}
+
+div {
+	background-color:white;
+}
+
+#intro, #innovations, #sidebar{
+	float: left;
+	width: 300px;
+	margin: 10px;
+	border: 1px solid deeppink;
+}
+
+
+#footer {
+	clear:left;
+}

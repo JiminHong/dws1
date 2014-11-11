@@ -1,0 +1,16 @@
+p {
+	border: 1px solid deeppink;
+}
+
+img.medium {
+	width: 250px;
+	height: 250px;
+}
+
+img.align-left {
+	float: left;
+}
+
+img.align-right {
+	float: right;
+}

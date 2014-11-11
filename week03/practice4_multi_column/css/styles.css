@@ -1,0 +1,21 @@
+body {
+	width: 960px;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+}
+
+div {
+	background-color:grey;
+}
+
+#content {
+	float: left;
+	width: 620px;
+	margin: 10px;
+}
+
+#sidebar {
+	float: left; /* either "right" */
+	width: 300px;
+	margin: 10px;
+}
