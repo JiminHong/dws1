@@ -1,0 +1,12 @@
+body {
+	background-image: url("../images/pattern02.jpg");
+	background-repeat: repeat-x;
+	color: #665544;
+	padding: 20px;
+}
+
+p {
+	color: white;
+	padding: 20px;
+	background-image: url("../images/pattern.png");
+}

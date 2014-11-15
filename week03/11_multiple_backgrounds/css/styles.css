@@ -1,0 +1,16 @@
+body {
+	background: url("../images/bg.jpg") no-repeat left bottom, url("../images/pattern01.png") repeat-x top;
+}
+
+p {
+	padding: 20px;
+	width: 30%;
+}
+
+/*			SHORT HAND			*/
+
+/*background: #fffff url("../images/bg.jpg") no-repeat fixed top right;*/
+
+#gradient {
+	background: linear-gradient(#336666, ##66cccc);
+}

@@ -1,0 +1,165 @@
+body{
+	background-color: #49403e;
+}
+
+div#page{
+	background-color: #ccbbac;
+	width: 70%;
+	margin: 5% auto;
+	padding: 5%;
+	border-radius: 5%;
+	box-shadow: 20px 20px #332d2c;
+}
+
+/* ------------------------------------------------------------- headings */
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	font-size: 2.6em;
+	color: #eb4546;
+	text-shadow: 2px 2px #8e2a14;
+}
+
+h2, h3 {
+	font-size: 1.6em;
+	font-family: 'Cabin', sans-serif;
+	text-shadow: 2px 2px #f3e0d0;
+	margin-top: 5%;
+}
+
+
+/* ------------------------------------------------------------- nav */
+
+nav{
+	width: 60%;
+	padding: 1%;
+	margin: auto;
+	background-color: #f3e0d0;
+	border-radius: 5px;
+	box-shadow: 3px 3px rgba(67, 50, 47, .3);
+}
+
+ul {	
+	text-align: center;	
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	background-color: #f3e0d0;
+	margin: 0 15px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+}
+
+nav li:hover {
+	display: inline-block;
+}
+
+a:link {
+	color: #49403e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #8a7874;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #0d0d0d;
+}
+
+a:visited {
+	color: #887571;
+}
+
+/* spice level */
+
+li {
+	list-style-type: upper-roman;
+	margin-top: 1%;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #363636;
+}
+
+
+/* ------------------------------------------------------------- p */
+
+p#first_p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.1em;
+	width:100%;
+	margin-top: 5%;
+	font-weight: bold;
+	color: #363636;
+}
+
+.twoColumn {
+	width: 45%;
+	padding-right: 5%;
+	float: left;
+	margin-bottom: 3%;
+}
+
+
+p, figcaption{
+	line-height: 1.5em;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #363636;
+}
+
+.ref {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #363636;
+	text-align: right;
+}
+
+
+/* ------------------------------------------------------------- note */
+
+.note {
+	font-family: 'Cabin', sans-serif;
+	color: #67372c; 
+	font-style: italic;
+}
+
+p.note {
+	margin:0px;
+	color: #363636;
+	
+}
+
+.note_box {
+	width: 70%;
+	border: 2px solid #eb4546;
+	padding: 1%;
+	background-color: #f3e0d0;
+	border-radius: 30px 0;
+	color: #363636;
+	clear: both;
+}
+
+p.box_txt {
+	margin: 0;
+	width: 100%;
+	color: #363636;
+}
+
+
+/* ------------------------------------------------------------- Gallery */
+
+img {
+	border: 5px solid #332d2c;
+}
+
+a:hover img{
+	border: 5px solid #f3e0d0;
+	opacity: .5;
+}
+
+figure img{
+	width:90%;
+}

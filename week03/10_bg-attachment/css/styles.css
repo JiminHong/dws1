@@ -1,0 +1,19 @@
+body {
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 100% 0; /*horizontal, vertical*/ 
+	/*                   500px 0;                      */
+	/*                   top center;                      */
+	color: #665544;
+	padding: 20px;
+}
+
+p {
+	padding: 20px;
+	width: 30%;
+}
+
+/*			SHORT HAND			*/
+
+/*background: #fffff url("../images/bg.jpg") no-repeat fixed top right;*/

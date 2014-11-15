@@ -1,0 +1,20 @@
+#sunny {
+	background-image: url("../images/sunny.png");
+	background-repeat: no-repeat;
+	padding: 10px 0 0 160px;
+	height: 120px;
+}
+
+#cloudy {
+	background-image: url("../images/cloudy.png");
+	background-repeat: no-repeat;
+	padding: 10px 0 0 160px;
+	height: 120px;
+}
+
+#rainy {
+	background-image: url("../images/rainy.png");
+	background-repeat: no-repeat;
+	padding: 10px 0 0 160px;
+	height: 120px;
+}
