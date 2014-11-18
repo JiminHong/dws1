@@ -121,6 +121,32 @@ aside section a:hover {
 	text-decoration: none;
 }
 
+/* ------------------------------------------------------------- table */
+
+table {
+	font-family: 'Josefin Sans', sans-serif;
+	width: 50%;
+	margin: 0 0 5% 0;
+	letter-spacing: 0;
+	font-size: 1.1em;
+	border-collapse: collapse;
+	background-color: rgba(67, 50, 47, .2);
+}
+
+th, td {
+	padding: 3%;
+	border: 1px solid white;
+}
+
+th {
+	text-align: right;
+}
+
+tr:hover {
+	background-color: rgba(100, 100, 100, .5);
+}
+
+
 /* ------------------------------------------------------------- p */
 
 p#first_p {
