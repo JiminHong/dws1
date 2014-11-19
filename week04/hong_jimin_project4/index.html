@@ -85,9 +85,7 @@
 						<td>11:30 - 20:00</td>
 					</tr>
 
-				</table>
-	
-			
+				</table>		
 
 			<!-- ********** heatlevel ********** -->
 			<div id="heatLevel">
@@ -195,16 +193,63 @@
 			
 			<p class="ref"> Resource : <a href="https://www.google.com/search?q=Asian+Noodle&newwindow=1&espv=2&biw=1440&bih=828&tbm=isch&tbo=u&source=univ&sa=X&ei=ihtdVPupLJbbsASay4LIBA&ved=0CHQQsAQ">Google Images</a>
 			</p>
-			
-			
-			
 			<!-- ********** End of Gallery ********** -->
 			
+			<!-- ********** Forms ********** -->
+			<form action="emailto:jhong@fullsail.edu" method="post">
+				<div class="inputNames">Name : 
+					<input type="text" name="name" size="15" maxlength="30" >
+				</div>
+				
+				<label for="username">Username : </label>
+				<input type="username" name="username" required="required"><br/>
+				
+				<label for="password">Password : </label>
+				<input type="password" name="password" required="required">
+				
+				<div class="inputNames">E-mail : 
+					<input type="email" name="email" placeholder="example@example.com" required="required">
+				</div>
+				
+				<div class="inputNames">Tell us about you</div>
+				<textarea name="aboutYou" cols="20" rows="4">Tell us about you!</textarea>
+				
+				<div class="inputNames">Do you want to get more information <br/>about our restaurant through e-mail? <br/>
+				<input type="radio" name="moreInfo" value="yes" checked="checked" />Yes
+				<input type="radio" name="moreInfo" value="no" />No, thanks
+				
+				</div>
+
+				
+				<div class="inputNames">How did you hear about us?</div>
+					<select>
+						<option>Select one</option>
+						<option value="facebook">Facebook</option>
+						<option value="Google">Google</option>
+						<option value="Yelp">Yelp</option>
+						<option value="Friends">Friends</option>
+						<option value="Ad">Advertisement on TV</option>
+						
+					</select>
+				<div class="inputNames">
+					<input type="submit">
+				</div>
+				
+			</form>
+			
+			<p class="ref"><a href="https://dribbble.com/shots/802970-Bowl-of-Pho">Illustration by Isabel Foo</a><p>
+			
+			
+			
+			
+			
+			<!-- ********** Footer ********** -->
 			<footer>
 				<div>
 				<p>&copy: 2011 Asian Noodle Restaurant</p>
 				</div>
 			</footer>
+			
 			
 			
 		</div><!-- Closes page div -->

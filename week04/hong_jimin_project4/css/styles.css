@@ -3,7 +3,7 @@ body{
 }
 
 div#page{
-	background: url("../images/top_image.png") no-repeat top left;	
+	background: url("../images/top.png") no-repeat top left;
 	background-color: #ccbbac;
 	width: 70%;
 	margin: 5% auto;
@@ -168,7 +168,7 @@ p#first_p {
 }
 
 
-p, figcaption{
+p, figcaption {
 	line-height: 1.5em;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #363636;
@@ -237,4 +237,26 @@ footer{
 	padding: 5px 20px;
 	margin: 0 -7.1%;
 	background-color: rgba(67, 50, 47, .3);
+	clear: both;
+}
+
+/* ------------------------------------------------------------- Forms */
+
+form {
+	background: url("../images/form.png") no-repeat top left;
+	background-color: #f3e0d0;
+	margin: 5% -7.1% 0 -7.1%;
+	padding: 7%;
+	text-align: right;
+}
+
+.inputNames, label {
+	line-height: 2em;
+	font-size: 1.1em;	
+	font-family: 'Josefin Sans', sans-serif;
+	color: #363636;
+}
+
+input:hover {
+	border: 1px solid #eb4546;
 }
