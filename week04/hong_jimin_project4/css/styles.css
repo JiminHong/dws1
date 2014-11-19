@@ -243,20 +243,22 @@ footer{
 /* ------------------------------------------------------------- Forms */
 
 form {
-	background: url("../images/form.png") no-repeat top left;
+	background: url("../images/form.png") no-repeat top right;
 	background-color: #f3e0d0;
 	margin: 5% -7.1% 0 -7.1%;
 	padding: 7%;
-	text-align: right;
-}
-
-.inputNames, label {
+	text-align: left;
 	line-height: 2em;
 	font-size: 1.1em;	
 	font-family: 'Josefin Sans', sans-serif;
 	color: #363636;
 }
 
-input:hover {
+input:hover, input:focus {
 	border: 1px solid #eb4546;
 }
+
+label {
+	float: left;
+}
+
